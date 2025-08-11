@@ -5,4 +5,4 @@ Cron Jobs allow you to start a service based on a crontab expression.
 # CRON Jobs on Railway
 
 * We deploy our task which performs its operation and exits. It does not keep any long running threads or open connections.
-* The CRON job will run this task every 2 minutes and the output will be displayed in a JSON file.
+* The CRON job will run this task every 5 minutes and the output will be displayed in a JSON file.
